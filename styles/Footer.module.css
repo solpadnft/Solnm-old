@@ -1,0 +1,140 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  gap: 30px;
+
+} 
+.footer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  width: 80%;
+  border-radius: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(44, 44, 44) 0%, rgb(22, 22, 22) 35%, rgb(39, 38, 38) 100%);
+  padding: 50px;
+  gap: 20px;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: 300px;
+}
+
+.footerMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 40%;
+  transition: all 0.15s ease-in-out;
+  justify-content: left;
+  justify-items: left;
+  gap: 10px;
+}
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  gap: 10px;
+  justify-items: center;
+}
+.footerRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75%;
+  transition: all 0.15s ease-in-out;
+  justify-content: center;
+  justify-items: center;
+  gap: 15px;
+}
+.footerRightup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  justify-items: left;
+  margin-top: 20px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.733);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  transition: color 0.3s ease-in-out;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link:hover {
+  color: #969397;
+}
+
+.gradientText {
+  background-clip: text;
+  color: #d8d2d2b2;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.deoptitle {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 1rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+.footertitle {
+  color: #a5a5aa;
+  display: inherit;
+  justify-content: left;
+  align-items: left;
+  font-size: 12px;
+  font-weight: 500;
+}
+    
+@media (max-width: 1000px) {
+  .footer {
+    display: none !important;
+  }
+}
+.button {
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  background: #11101000;
+  padding: 10px;
+  width: 150px;
+  line-height: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  border: 1px solid #d2d3d81e;
+  box-shadow: #4246428e 2px 2px 10px 0px !important;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.15s ease-in-out;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  font-family: var(--font-mono);
+}
+.button:hover {
+  background: #45464780;
+}
+.button2:hover {
+  background: #111010;
+}
