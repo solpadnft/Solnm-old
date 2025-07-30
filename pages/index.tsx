@@ -27,8 +27,8 @@ export default function Home() {
                   <p className={styles.gradientText}> Launchpad </p>
                 </Link>
 
-                <Link className={styles.button2} href={"https://market.solnm.com"}>
-                  <p> Marketplace </p>
+                <Link className={styles.button2} href={"https://solnm.com/create"}>
+                  <p> Create </p>
                 </Link>
               </div>
             </div>
