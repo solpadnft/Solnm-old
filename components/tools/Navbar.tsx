@@ -60,8 +60,8 @@ export default function Navbar() {
            />
       </Link>
 
-        <Link  className={styles.button} href={"https://market.solnm.com"} >
-      <p > Market </p>
+        <Link  className={styles.button} href={"https://solnm.com/create"} >
+      <p > Create </p>
       </Link>
 
       <button className={styles.button} data-tally-open="wdQdQK" data-tally-layout="modal" 
